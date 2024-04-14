@@ -34,7 +34,6 @@ jobs:
 
     - run: dotnet tool update -g docfx
     - run: docfx docfx/docfx.json
-    - run: echo ${{ steps.deployment.outputs.page_url }}
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
