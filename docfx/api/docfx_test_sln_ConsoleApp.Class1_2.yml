@@ -1,0 +1,418 @@
+### YamlMime:ManagedReference
+items:
+- uid: docfx_test_sln_ConsoleApp.Class1_2
+  commentId: T:docfx_test_sln_ConsoleApp.Class1_2
+  id: Class1_2
+  parent: docfx_test_sln_ConsoleApp
+  children:
+  - docfx_test_sln_ConsoleApp.Class1_2.TestMethod2(System.Int32)
+  - docfx_test_sln_ConsoleApp.Class1_2.var1
+  langs:
+  - csharp
+  - vb
+  name: Class1_2
+  nameWithType: Class1_2
+  fullName: docfx_test_sln_ConsoleApp.Class1_2
+  type: Class
+  source:
+    remote:
+      path: src/docfx-test-sln-ConsoleApp/test_dir1/Class1_2.cs
+      branch: master
+      repo: https://github.com/tirol30/docfx-test-sln.git
+    id: Class1_2
+    path: ../src/docfx-test-sln-ConsoleApp/test_dir1/Class1_2.cs
+    startLine: 11
+  assemblies:
+  - docfx-test-sln-ConsoleApp
+  namespace: docfx_test_sln_ConsoleApp
+  summary: テスト用のクラス2
+  example: []
+  syntax:
+    content: 'internal class Class1_2 : IClass1_2'
+    content.vb: Friend Class Class1_2 Implements IClass1_2
+  inheritance:
+  - System.Object
+  implements:
+  - docfx_test_sln_ConsoleApp.IClass1_2
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: docfx_test_sln_ConsoleApp.Class1_2.var1
+  commentId: F:docfx_test_sln_ConsoleApp.Class1_2.var1
+  id: var1
+  parent: docfx_test_sln_ConsoleApp.Class1_2
+  langs:
+  - csharp
+  - vb
+  name: var1
+  nameWithType: Class1_2.var1
+  fullName: docfx_test_sln_ConsoleApp.Class1_2.var1
+  type: Field
+  source:
+    remote:
+      path: src/docfx-test-sln-ConsoleApp/test_dir1/Class1_2.cs
+      branch: master
+      repo: https://github.com/tirol30/docfx-test-sln.git
+    id: var1
+    path: ../src/docfx-test-sln-ConsoleApp/test_dir1/Class1_2.cs
+    startLine: 13
+  assemblies:
+  - docfx-test-sln-ConsoleApp
+  namespace: docfx_test_sln_ConsoleApp
+  syntax:
+    content: private int var1
+    return:
+      type: System.Int32
+    content.vb: Private var1 As Integer
+- uid: docfx_test_sln_ConsoleApp.Class1_2.TestMethod2(System.Int32)
+  commentId: M:docfx_test_sln_ConsoleApp.Class1_2.TestMethod2(System.Int32)
+  id: TestMethod2(System.Int32)
+  parent: docfx_test_sln_ConsoleApp.Class1_2
+  langs:
+  - csharp
+  - vb
+  name: TestMethod2(int)
+  nameWithType: Class1_2.TestMethod2(int)
+  fullName: docfx_test_sln_ConsoleApp.Class1_2.TestMethod2(int)
+  type: Method
+  source:
+    remote:
+      path: src/docfx-test-sln-ConsoleApp/test_dir1/Class1_2.cs
+      branch: master
+      repo: https://github.com/tirol30/docfx-test-sln.git
+    id: TestMethod2
+    path: ../src/docfx-test-sln-ConsoleApp/test_dir1/Class1_2.cs
+    startLine: 23
+  assemblies:
+  - docfx-test-sln-ConsoleApp
+  namespace: docfx_test_sln_ConsoleApp
+  summary: >-
+    整数を与えられると4倍にして返す
+
+    > [!NOTE]
+
+    > なにか有用なメモ
+
+
+    $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+  example: []
+  syntax:
+    content: public int TestMethod2(int n)
+    parameters:
+    - id: n
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Function TestMethod2(n As Integer) As Integer
+  overload: docfx_test_sln_ConsoleApp.Class1_2.TestMethod2*
+  implements:
+  - docfx_test_sln_ConsoleApp.IClass1_2.TestMethod2(System.Int32)
+  nameWithType.vb: Class1_2.TestMethod2(Integer)
+  fullName.vb: docfx_test_sln_ConsoleApp.Class1_2.TestMethod2(Integer)
+  name.vb: TestMethod2(Integer)
+references:
+- uid: docfx_test_sln_ConsoleApp
+  commentId: N:docfx_test_sln_ConsoleApp
+  href: docfx_test_sln_ConsoleApp.html
+  name: docfx_test_sln_ConsoleApp
+  nameWithType: docfx_test_sln_ConsoleApp
+  fullName: docfx_test_sln_ConsoleApp
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: docfx_test_sln_ConsoleApp.IClass1_2
+  commentId: T:docfx_test_sln_ConsoleApp.IClass1_2
+  parent: docfx_test_sln_ConsoleApp
+  href: docfx_test_sln_ConsoleApp.IClass1_2.html
+  name: IClass1_2
+  nameWithType: IClass1_2
+  fullName: docfx_test_sln_ConsoleApp.IClass1_2
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: docfx_test_sln_ConsoleApp.Class1_2.TestMethod2*
+  commentId: Overload:docfx_test_sln_ConsoleApp.Class1_2.TestMethod2
+  href: docfx_test_sln_ConsoleApp.Class1_2.html#docfx_test_sln_ConsoleApp_Class1_2_TestMethod2_System_Int32_
+  name: TestMethod2
+  nameWithType: Class1_2.TestMethod2
+  fullName: docfx_test_sln_ConsoleApp.Class1_2.TestMethod2
+- uid: docfx_test_sln_ConsoleApp.IClass1_2.TestMethod2(System.Int32)
+  commentId: M:docfx_test_sln_ConsoleApp.IClass1_2.TestMethod2(System.Int32)
+  parent: docfx_test_sln_ConsoleApp.IClass1_2
+  isExternal: true
+  href: docfx_test_sln_ConsoleApp.IClass1_2.html#docfx_test_sln_ConsoleApp_IClass1_2_TestMethod2_System_Int32_
+  name: TestMethod2(int)
+  nameWithType: IClass1_2.TestMethod2(int)
+  fullName: docfx_test_sln_ConsoleApp.IClass1_2.TestMethod2(int)
+  nameWithType.vb: IClass1_2.TestMethod2(Integer)
+  fullName.vb: docfx_test_sln_ConsoleApp.IClass1_2.TestMethod2(Integer)
+  name.vb: TestMethod2(Integer)
+  spec.csharp:
+  - uid: docfx_test_sln_ConsoleApp.IClass1_2.TestMethod2(System.Int32)
+    name: TestMethod2
+    href: docfx_test_sln_ConsoleApp.IClass1_2.html#docfx_test_sln_ConsoleApp_IClass1_2_TestMethod2_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: docfx_test_sln_ConsoleApp.IClass1_2.TestMethod2(System.Int32)
+    name: TestMethod2
+    href: docfx_test_sln_ConsoleApp.IClass1_2.html#docfx_test_sln_ConsoleApp_IClass1_2_TestMethod2_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )

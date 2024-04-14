@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: docfx_test_sln_ConsoleApp.IClass1_2
+  commentId: T:docfx_test_sln_ConsoleApp.IClass1_2
+  id: IClass1_2
+  parent: docfx_test_sln_ConsoleApp
+  children:
+  - docfx_test_sln_ConsoleApp.IClass1_2.TestMethod2(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: IClass1_2
+  nameWithType: IClass1_2
+  fullName: docfx_test_sln_ConsoleApp.IClass1_2
+  type: Interface
+  source:
+    remote:
+      path: src/docfx-test-sln-ConsoleApp/test_dir1/IClass1_2.cs
+      branch: master
+      repo: https://github.com/tirol30/docfx-test-sln.git
+    id: IClass1_2
+    path: ../src/docfx-test-sln-ConsoleApp/test_dir1/IClass1_2.cs
+    startLine: 5
+  assemblies:
+  - docfx-test-sln-ConsoleApp
+  namespace: docfx_test_sln_ConsoleApp
+  summary: テスト用のクラス2のインターフェース
+  example: []
+  syntax:
+    content: internal interface IClass1_2
+    content.vb: Friend Interface IClass1_2
+- uid: docfx_test_sln_ConsoleApp.IClass1_2.TestMethod2(System.Int32)
+  commentId: M:docfx_test_sln_ConsoleApp.IClass1_2.TestMethod2(System.Int32)
+  id: TestMethod2(System.Int32)
+  parent: docfx_test_sln_ConsoleApp.IClass1_2
+  langs:
+  - csharp
+  - vb
+  name: TestMethod2(int)
+  nameWithType: IClass1_2.TestMethod2(int)
+  fullName: docfx_test_sln_ConsoleApp.IClass1_2.TestMethod2(int)
+  type: Method
+  source:
+    remote:
+      path: src/docfx-test-sln-ConsoleApp/test_dir1/IClass1_2.cs
+      branch: master
+      repo: https://github.com/tirol30/docfx-test-sln.git
+    id: TestMethod2
+    path: ../src/docfx-test-sln-ConsoleApp/test_dir1/IClass1_2.cs
+    startLine: 12
+  assemblies:
+  - docfx-test-sln-ConsoleApp
+  namespace: docfx_test_sln_ConsoleApp
+  summary: 整数を与えられると4倍にして返す
+  example: []
+  syntax:
+    content: int TestMethod2(int n)
+    parameters:
+    - id: n
+      type: System.Int32
+      description: 入力される整数
+    return:
+      type: System.Int32
+      description: 4倍にされた整数
+    content.vb: Function TestMethod2(n As Integer) As Integer
+  overload: docfx_test_sln_ConsoleApp.IClass1_2.TestMethod2*
+  nameWithType.vb: IClass1_2.TestMethod2(Integer)
+  fullName.vb: docfx_test_sln_ConsoleApp.IClass1_2.TestMethod2(Integer)
+  name.vb: TestMethod2(Integer)
+references:
+- uid: docfx_test_sln_ConsoleApp
+  commentId: N:docfx_test_sln_ConsoleApp
+  href: docfx_test_sln_ConsoleApp.html
+  name: docfx_test_sln_ConsoleApp
+  nameWithType: docfx_test_sln_ConsoleApp
+  fullName: docfx_test_sln_ConsoleApp
+- uid: docfx_test_sln_ConsoleApp.IClass1_2.TestMethod2*
+  commentId: Overload:docfx_test_sln_ConsoleApp.IClass1_2.TestMethod2
+  href: docfx_test_sln_ConsoleApp.IClass1_2.html#docfx_test_sln_ConsoleApp_IClass1_2_TestMethod2_System_Int32_
+  name: TestMethod2
+  nameWithType: IClass1_2.TestMethod2
+  fullName: docfx_test_sln_ConsoleApp.IClass1_2.TestMethod2
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

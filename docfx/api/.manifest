@@ -2,6 +2,11 @@
   "docfx_test_sln_ConsoleApp": "docfx_test_sln_ConsoleApp.yml",
   "docfx_test_sln_ConsoleApp.Class1": "docfx_test_sln_ConsoleApp.Class1.yml",
   "docfx_test_sln_ConsoleApp.Class1.TestMethod(System.Int32)": "docfx_test_sln_ConsoleApp.Class1.yml",
+  "docfx_test_sln_ConsoleApp.Class1_2": "docfx_test_sln_ConsoleApp.Class1_2.yml",
+  "docfx_test_sln_ConsoleApp.Class1_2.TestMethod2(System.Int32)": "docfx_test_sln_ConsoleApp.Class1_2.yml",
+  "docfx_test_sln_ConsoleApp.Class1_2.var1": "docfx_test_sln_ConsoleApp.Class1_2.yml",
+  "docfx_test_sln_ConsoleApp.IClass1_2": "docfx_test_sln_ConsoleApp.IClass1_2.yml",
+  "docfx_test_sln_ConsoleApp.IClass1_2.TestMethod2(System.Int32)": "docfx_test_sln_ConsoleApp.IClass1_2.yml",
   "docfx_test_sln_ConsoleApp2": "docfx_test_sln_ConsoleApp2.yml",
   "docfx_test_sln_ConsoleApp2.Class2": "docfx_test_sln_ConsoleApp2.Class2.yml",
   "docfx_test_sln_ConsoleApp2.Class2.TestMethod2(System.Int32)": "docfx_test_sln_ConsoleApp2.Class2.yml"

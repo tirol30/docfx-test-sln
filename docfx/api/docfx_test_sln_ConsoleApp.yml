@@ -5,6 +5,8 @@ items:
   id: docfx_test_sln_ConsoleApp
   children:
   - docfx_test_sln_ConsoleApp.Class1
+  - docfx_test_sln_ConsoleApp.Class1_2
+  - docfx_test_sln_ConsoleApp.IClass1_2
   langs:
   - csharp
   - vb
@@ -21,3 +23,22 @@ references:
   name: Class1
   nameWithType: Class1
   fullName: docfx_test_sln_ConsoleApp.Class1
+- uid: docfx_test_sln_ConsoleApp.Class1_2
+  commentId: T:docfx_test_sln_ConsoleApp.Class1_2
+  href: docfx_test_sln_ConsoleApp.Class1_2.html
+  name: Class1_2
+  nameWithType: Class1_2
+  fullName: docfx_test_sln_ConsoleApp.Class1_2
+- uid: docfx_test_sln_ConsoleApp.IClass1_2
+  commentId: T:docfx_test_sln_ConsoleApp.IClass1_2
+  parent: docfx_test_sln_ConsoleApp
+  href: docfx_test_sln_ConsoleApp.IClass1_2.html
+  name: IClass1_2
+  nameWithType: IClass1_2
+  fullName: docfx_test_sln_ConsoleApp.IClass1_2
+- uid: docfx_test_sln_ConsoleApp
+  commentId: N:docfx_test_sln_ConsoleApp
+  href: docfx_test_sln_ConsoleApp.html
+  name: docfx_test_sln_ConsoleApp
+  nameWithType: docfx_test_sln_ConsoleApp
+  fullName: docfx_test_sln_ConsoleApp

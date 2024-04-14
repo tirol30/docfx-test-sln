@@ -5,6 +5,10 @@ items:
   items:
   - uid: docfx_test_sln_ConsoleApp.Class1
     name: Class1
+  - uid: docfx_test_sln_ConsoleApp.Class1_2
+    name: Class1_2
+  - uid: docfx_test_sln_ConsoleApp.IClass1_2
+    name: IClass1_2
 - uid: docfx_test_sln_ConsoleApp2
   name: docfx_test_sln_ConsoleApp2
   items:
