@@ -1,8 +1,0 @@
-### YamlMime:TableOfContent
-items:
-- uid: docfx_test_sln_ConsoleApp
-  name: docfx_test_sln_ConsoleApp
-  items:
-  - uid: docfx_test_sln_ConsoleApp.Class1
-    name: Class1
-memberLayout: SamePage
