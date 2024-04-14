@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: docfx_test_sln_ConsoleApp
+  commentId: N:docfx_test_sln_ConsoleApp
+  id: docfx_test_sln_ConsoleApp
+  children:
+  - docfx_test_sln_ConsoleApp.Class1
+  langs:
+  - csharp
+  - vb
+  name: docfx_test_sln_ConsoleApp
+  nameWithType: docfx_test_sln_ConsoleApp
+  fullName: docfx_test_sln_ConsoleApp
+  type: Namespace
+  assemblies:
+  - docfx-test-sln-ConsoleApp
+references:
+- uid: docfx_test_sln_ConsoleApp.Class1
+  commentId: T:docfx_test_sln_ConsoleApp.Class1
+  href: docfx_test_sln_ConsoleApp.Class1.html
+  name: Class1
+  nameWithType: Class1
+  fullName: docfx_test_sln_ConsoleApp.Class1
