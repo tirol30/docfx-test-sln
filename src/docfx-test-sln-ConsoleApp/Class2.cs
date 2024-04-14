@@ -4,21 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace docfx_test_sln_ConsoleApp2
+namespace docfx_test_sln_ConsoleApp
 {
     /// <summary>
-    /// テスト用のクラス2
+    /// テスト用のクラス
     /// </summary>
-    internal class Class2
+    public class Class1
     {
         /// <summary>
-        /// 整数を与えられると3倍にして返す
+        /// 整数を与えられると２倍にして返す
         /// </summary>
         /// <param name="n"></param>
         /// <returns></returns>
-        internal int TestMethod2(int n)
+        public int TestMethod(int n)
         {
-            return n * 3;
+            return n * 2;
         }
     }
 }

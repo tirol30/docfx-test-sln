@@ -1,34 +1,34 @@
 ### YamlMime:ManagedReference
 items:
-- uid: docfx_test_sln_ConsoleApp.Class1
-  commentId: T:docfx_test_sln_ConsoleApp.Class1
-  id: Class1
-  parent: docfx_test_sln_ConsoleApp
+- uid: docfx_test_sln_ConsoleApp2.Class2
+  commentId: T:docfx_test_sln_ConsoleApp2.Class2
+  id: Class2
+  parent: docfx_test_sln_ConsoleApp2
   children:
-  - docfx_test_sln_ConsoleApp.Class1.TestMethod(System.Int32)
+  - docfx_test_sln_ConsoleApp2.Class2.TestMethod2(System.Int32)
   langs:
   - csharp
   - vb
-  name: Class1
-  nameWithType: Class1
-  fullName: docfx_test_sln_ConsoleApp.Class1
+  name: Class2
+  nameWithType: Class2
+  fullName: docfx_test_sln_ConsoleApp2.Class2
   type: Class
   source:
     remote:
-      path: src/docfx-test-sln-ConsoleApp/Class2.cs
+      path: src/docfx-test-sln-ConsoleApp/Class1.cs
       branch: master
       repo: https://github.com/tirol30/docfx-test-sln.git
-    id: Class1
-    path: ../src/docfx-test-sln-ConsoleApp/Class2.cs
+    id: Class2
+    path: ../src/docfx-test-sln-ConsoleApp/Class1.cs
     startLine: 11
   assemblies:
   - docfx-test-sln-ConsoleApp
-  namespace: docfx_test_sln_ConsoleApp
-  summary: テスト用のクラス
+  namespace: docfx_test_sln_ConsoleApp2
+  summary: テスト用のクラス2
   example: []
   syntax:
-    content: public class Class1
-    content.vb: Public Class Class1
+    content: internal class Class2
+    content.vb: Friend Class Class2
   inheritance:
   - System.Object
   inheritedMembers:
@@ -39,32 +39,32 @@ items:
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   - System.Object.ToString
-- uid: docfx_test_sln_ConsoleApp.Class1.TestMethod(System.Int32)
-  commentId: M:docfx_test_sln_ConsoleApp.Class1.TestMethod(System.Int32)
-  id: TestMethod(System.Int32)
-  parent: docfx_test_sln_ConsoleApp.Class1
+- uid: docfx_test_sln_ConsoleApp2.Class2.TestMethod2(System.Int32)
+  commentId: M:docfx_test_sln_ConsoleApp2.Class2.TestMethod2(System.Int32)
+  id: TestMethod2(System.Int32)
+  parent: docfx_test_sln_ConsoleApp2.Class2
   langs:
   - csharp
   - vb
-  name: TestMethod(int)
-  nameWithType: Class1.TestMethod(int)
-  fullName: docfx_test_sln_ConsoleApp.Class1.TestMethod(int)
+  name: TestMethod2(int)
+  nameWithType: Class2.TestMethod2(int)
+  fullName: docfx_test_sln_ConsoleApp2.Class2.TestMethod2(int)
   type: Method
   source:
     remote:
-      path: src/docfx-test-sln-ConsoleApp/Class2.cs
+      path: src/docfx-test-sln-ConsoleApp/Class1.cs
       branch: master
       repo: https://github.com/tirol30/docfx-test-sln.git
-    id: TestMethod
-    path: ../src/docfx-test-sln-ConsoleApp/Class2.cs
+    id: TestMethod2
+    path: ../src/docfx-test-sln-ConsoleApp/Class1.cs
     startLine: 18
   assemblies:
   - docfx-test-sln-ConsoleApp
-  namespace: docfx_test_sln_ConsoleApp
-  summary: 整数を与えられると２倍にして返す
+  namespace: docfx_test_sln_ConsoleApp2
+  summary: 整数を与えられると3倍にして返す
   example: []
   syntax:
-    content: public int TestMethod(int n)
+    content: internal int TestMethod2(int n)
     parameters:
     - id: n
       type: System.Int32
@@ -72,18 +72,18 @@ items:
     return:
       type: System.Int32
       description: ''
-    content.vb: Public Function TestMethod(n As Integer) As Integer
-  overload: docfx_test_sln_ConsoleApp.Class1.TestMethod*
-  nameWithType.vb: Class1.TestMethod(Integer)
-  fullName.vb: docfx_test_sln_ConsoleApp.Class1.TestMethod(Integer)
-  name.vb: TestMethod(Integer)
+    content.vb: Friend Function TestMethod2(n As Integer) As Integer
+  overload: docfx_test_sln_ConsoleApp2.Class2.TestMethod2*
+  nameWithType.vb: Class2.TestMethod2(Integer)
+  fullName.vb: docfx_test_sln_ConsoleApp2.Class2.TestMethod2(Integer)
+  name.vb: TestMethod2(Integer)
 references:
-- uid: docfx_test_sln_ConsoleApp
-  commentId: N:docfx_test_sln_ConsoleApp
-  href: docfx_test_sln_ConsoleApp.html
-  name: docfx_test_sln_ConsoleApp
-  nameWithType: docfx_test_sln_ConsoleApp
-  fullName: docfx_test_sln_ConsoleApp
+- uid: docfx_test_sln_ConsoleApp2
+  commentId: N:docfx_test_sln_ConsoleApp2
+  href: docfx_test_sln_ConsoleApp2.html
+  name: docfx_test_sln_ConsoleApp2
+  nameWithType: docfx_test_sln_ConsoleApp2
+  fullName: docfx_test_sln_ConsoleApp2
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -321,12 +321,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: docfx_test_sln_ConsoleApp.Class1.TestMethod*
-  commentId: Overload:docfx_test_sln_ConsoleApp.Class1.TestMethod
-  href: docfx_test_sln_ConsoleApp.Class1.html#docfx_test_sln_ConsoleApp_Class1_TestMethod_System_Int32_
-  name: TestMethod
-  nameWithType: Class1.TestMethod
-  fullName: docfx_test_sln_ConsoleApp.Class1.TestMethod
+- uid: docfx_test_sln_ConsoleApp2.Class2.TestMethod2*
+  commentId: Overload:docfx_test_sln_ConsoleApp2.Class2.TestMethod2
+  href: docfx_test_sln_ConsoleApp2.Class2.html#docfx_test_sln_ConsoleApp2_Class2_TestMethod2_System_Int32_
+  name: TestMethod2
+  nameWithType: Class2.TestMethod2
+  fullName: docfx_test_sln_ConsoleApp2.Class2.TestMethod2
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System

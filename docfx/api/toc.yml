@@ -5,4 +5,9 @@ items:
   items:
   - uid: docfx_test_sln_ConsoleApp.Class1
     name: Class1
+- uid: docfx_test_sln_ConsoleApp2
+  name: docfx_test_sln_ConsoleApp2
+  items:
+  - uid: docfx_test_sln_ConsoleApp2.Class2
+    name: Class2
 memberLayout: SamePage
